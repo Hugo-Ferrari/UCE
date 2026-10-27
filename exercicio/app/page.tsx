@@ -7,6 +7,9 @@ import CartaoCurtidas from "./components/CartaoCurtidas";
 import CartaoDeTarefas from "./components/CartaoDeTarefas";
 import ConversorMoedas from "./components/ConversorMoedas";
 import Enquete from "./components/Enquete";
+import ListaPost from "./components/ListaPost";
+import TabelaUsuario from "./components/TabelaUsuario";
+import TarefaComFiltroStatus from "./components/TarefaComFiltroStatus";
 
 function Page() {
   return (
@@ -78,6 +81,16 @@ function Page() {
             opcaoA="VS Code"
             opcaoB="WebStorm"
           />
+        </div>
+
+        <div>
+          <ListaPost/>
+        </div>
+        <div>
+          <TabelaUsuario/>
+        </div>
+        <div>
+          <TarefaComFiltroStatus/>
         </div>
       </section>
     </main>
