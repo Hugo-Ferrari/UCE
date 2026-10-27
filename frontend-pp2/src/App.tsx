@@ -4,6 +4,9 @@ import Contador from "./Contador";
 import ForularioDeDados from "./ForularioDeDados";
 import ListaSimples from "./ListaSimples";
 import ListaTarefas from "./ListaTarefas";
+import ListaFiltrada from "./ListaFiltrada";
+import ListaApi from "./ListaApi";
+import TarefasPorUsuario from "./TarefasPorUsuario";
 
 function App() {
   return (
@@ -29,6 +32,15 @@ function App() {
       </div>
       <div>
         <ListaTarefas/>
+      </div>
+      <div>
+        <ListaFiltrada/>
+      </div>
+      <div>
+        <ListaApi/>
+      </div>
+      <div>
+        <TarefasPorUsuario/>
       </div>
     </div>
   );
