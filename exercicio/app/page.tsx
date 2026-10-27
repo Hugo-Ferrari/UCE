@@ -10,6 +10,7 @@ import Enquete from "./components/Enquete";
 import ListaPost from "./components/ListaPost";
 import TabelaUsuario from "./components/TabelaUsuario";
 import TarefaComFiltroStatus from "./components/TarefaComFiltroStatus";
+import ListaApi from "./components/ListaApi";
 
 function Page() {
   return (
@@ -91,6 +92,9 @@ function Page() {
         </div>
         <div>
           <TarefaComFiltroStatus/>
+        </div>
+        <div>
+          <ListaApi/>
         </div>
       </section>
     </main>
